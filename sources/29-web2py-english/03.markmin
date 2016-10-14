@@ -1019,7 +1019,7 @@ ajax('callback', ['keyword'], 'target');
 ``:code
 ``ajax`` is a JavaScript function defined in the file "web2py.js" which is included by the default "layout.html". It takes three parameters: the URL of the action that performs the synchronous callback, a list of the IDs of variables to be sent to the callback (["keyword"]), and the ID where the response has to be inserted ("target").
 
-As soon as you type something in the search box and release a key, the client calls the server and sends the content of the 'keyword' field, and, when the sever responds, the response is embedded in the page itself as the innerHTML of the 'target' tag.
+As soon as you type something in the search box and release a key, the client calls the server and sends the content of the 'keyword' field, and, when the server responds, the response is embedded in the page itself as the innerHTML of the 'target' tag.
 
 The 'target' tag is a DIV defined in line 52. It could have been defined in the view as well.
 
